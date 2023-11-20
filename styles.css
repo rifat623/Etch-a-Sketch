@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr); /* Creates 16 columns */
+  grid-template-rows: repeat(16, 1fr); /* Creates 16 rows */
+  gap: 2px; /* Optional: Adds gaps between squares */
+  width: 400px; /* Adjust the width as needed */
+  height: 400px; /* Height should be the same as width for square cells */
+  margin: 0 auto; /* Optional: Centers the grid in the container */
+}
+
+.square {
+  border: 1px solid #000; /* Adds a border to each square */
+  background-color: #f0f0f0; /* Optional: Background color for squares */
+  /* Additional styling can be added here as needed */
+}
